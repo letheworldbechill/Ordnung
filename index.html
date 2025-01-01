@@ -229,8 +229,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialisiere Einstellungen Modal
     function initializeSettingsModal() {
         settingsGrid.innerHTML = '';
-        for (let row = 0; row < 10; row++) { // Beispiel: 10x10 Einstellungen
-            for (let col = 0; col < 10; col++) {
+        for (let row = 0; row < 20; row++) { // Beispiel: 10x10 Einstellungen
+            for (let col = 0; col < 20; col++) {
                 const cell = document.createElement('div');
                 cell.classList.add('settings-cell');
                 if (apartmentLayout[row] && apartmentLayout[row][col]) {
